@@ -1,7 +1,7 @@
-package br.com.hellocucumber;
+package br.com.cucumber;
 
-import br.com.hellocucumber.service.impl.Controller;
-import br.com.hellocucumber.service.impl.MethodsImpl;
+import br.com.cucumber.Controller.RequestController;
+import br.com.cucumber.Service.impl.MethodsImpl;
 import io.cucumber.spring.CucumberContextConfiguration;
 import org.springframework.test.context.ContextConfiguration;
 
@@ -11,6 +11,6 @@ import org.springframework.test.context.ContextConfiguration;
  * @implSpec  Setar no ContextConfiguration as classes que vão ser testadas
  */
 @CucumberContextConfiguration
-@ContextConfiguration(classes = {MethodsImpl.class, Controller.class})
+@ContextConfiguration(classes = {MethodsImpl.class, RequestController.class})
 public class CucumberSpringConfiguration {
 }

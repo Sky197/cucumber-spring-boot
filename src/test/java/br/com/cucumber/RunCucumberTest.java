@@ -1,4 +1,4 @@
-package br.com.hellocucumber;
+package br.com.cucumber;
 
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;

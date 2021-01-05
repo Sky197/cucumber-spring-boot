@@ -1,4 +1,4 @@
-package br.com.hellocucumber.service.impl;
+package br.com.cucumber.Service;
 
 import org.springframework.http.ResponseEntity;
 

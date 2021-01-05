@@ -1,15 +1,17 @@
-package br.com.hellocucumber.service.impl;
+package br.com.cucumber.Service.impl;
 
+import br.com.cucumber.Service.Methods;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
+
 /**
  * @author Fernando
+ * @implNote Classe de implementação dos metodos de ResponseEntity
  * @since 04-01-2021
- * @implNote  Classe de implementação dos metodos de ResponseEntity
  */
 @Service
 public class MethodsImpl implements Methods {

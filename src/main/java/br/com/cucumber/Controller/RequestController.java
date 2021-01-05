@@ -1,5 +1,6 @@
-package br.com.hellocucumber.service.impl;
+package br.com.cucumber.Controller;
 
+import br.com.cucumber.Service.impl.MethodsImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -11,11 +12,11 @@ import java.util.List;
 /**
  * @author Fernando
  * @since 04-01-2021
- * @Info  Controller basica para testes
+ * @Info  br.com.cucumber.Controller basica para testes
  */
 @RestController
-@RequestMapping("/controller")
-public class Controller {
+@RequestMapping("/request-test")
+public class RequestController {
 
     @Autowired
     MethodsImpl methods;
